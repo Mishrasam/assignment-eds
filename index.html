@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Outerwear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="menu-icon" id="menu-icon">☰</div>
+        <div class="logo">VENIA</div>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Women</a>
+            <a href="#">Men</a>
+            <a href="#">Smart Gear</a>
+            <a href="#">Accessories</a>
+        </nav>
+        <div class="cart">
+            <img src="./assets/image/cart.svg" alt="Cart Icon">
+            <span>10</span>
+        </div>
+    </header>
+
+    <!-- Top Section -->
+    <section class="top">
+        <div class="top-text">
+            <h2>Men's <br>Outerwear</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="image-container">
+            <img src="./assets/image/header.jpg" alt="Top Banner">
+        </div>
+    </section>
+
+    <aside class="filters" id="filters">
+        <h3>Filters</h3>
+        <hr />
+        <div style="display: flex; flex-direction: column; align-items: stretch;">
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="men's clothing"> Men's Clothing
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="women's clothing"> Women's Clothing
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="jewelery"> Jewelery
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" value="electronics"> Electronics
+            </label>
+        </div>
+        <hr />
+        <button id="close-filters">Close</button>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="filter-section">
+            <div class="breadcrumbs">
+                Clothing / Women's / Outerwear
+            </div>
+            <aside class="filters">
+                <h3>Filters</h3>
+                <hr />
+                <div style="display: flex; flex-direction: column; align-items: stretch;">
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" value="men's clothing"> Men's Clothing
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" value="women's clothing"> Women's Clothing
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" value="jewelery"> Jewelery
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" value="electronics"> Electronics
+                    </label>
+                </div>
+                <hr>
+            </aside>
+        </div>
+
+        <main class="main_section">
+            <div class="results-summary">
+                <p id="results-count">38 Results</p>
+                <select id="sort-dropdown">
+                    <option value="price">Sort by Price</option>
+                    <option value="name">Sort by Name</option>
+                </select>
+            </div>
+            <div class="products"></div>
+            <button id="load-more">Load More</button>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Account</h4>
+                <ul>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Order Status</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>About Us</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Order Status</a></li>
+                    <li><a href="#">Returns</a></li>
+                </ul>
+            </div>
+            <div class="footer-section follow-us">
+                <h4>Follow Us!</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam, consectetur quas nisi quod quidem optio.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="./assets/image/insta.svg" alt="Instagram" style="height: 20px; width: 20px;"></a>
+                    <a href="#"><img src="./assets/image/facebook.svg" alt="Facebook"  style="height: 20px; width: 20px;"></a>
+                    <a href="#"><img src="./assets/image/twitter.svg" alt="twitter"  style="height: 20px; width: 20px;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>VENIA</p>
+            <span>© Company Name Address Ave, City Name, State ZIP</span>
+            <div class="policies">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
